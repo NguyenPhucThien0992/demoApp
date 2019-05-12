@@ -1,0 +1,44 @@
+{
+  "name": "MachineManage",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "accordion-collapse-react-native": "^0.1.9",
+    "moment": "^2.24.0",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.2",
+    "react-native-button": "^2.3.0",
+    "react-native-circle": "^0.0.2",
+    "react-native-elements": "^1.1.0",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-modalbox": "^1.7.1",
+    "react-native-multiple-select": "^0.4.4",
+    "react-native-popup-menu": "^0.15.6",
+    "react-native-view-more-text": "^2.1.0",
+    "react-navigation": "^3.5.1",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-select": "^2.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/runtime": "^7.4.2",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "babel-jest": "^24.5.0",
+    "eslint": "^5.16.0",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": [
+    "./assets/Fonts"
+  ]
+}
